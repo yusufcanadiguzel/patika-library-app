@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace LibraryApp.InMemoryDatabase
 {
-    public class InMemoryDbContext
+    public static class InMemoryDbContext
     {
         public static List<User> Users { get; set; }
         public static List<Author> Authors { get; set; }
         public static List<Book> Books { get; set; }
 
-        public InMemoryDbContext()
+        static InMemoryDbContext()
         {
             Users = new List<User>();
             Authors = new List<Author>();

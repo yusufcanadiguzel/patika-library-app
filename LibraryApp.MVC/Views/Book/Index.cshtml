@@ -1,0 +1,46 @@
+﻿@model List<Book>
+
+<div class="d-flex justify-content-end my-3">
+    <a class="btn btn-success" asp-action="Create">
+        <i class="fa-solid fa-plus"></i>
+        Create
+    </a>
+</div>
+
+
+<table class="table table-striped table-hover my-3">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Publish Date</th>
+            <th>ISBN</th>
+            <th>CopiesAvailable</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>@book.AuthorId</td>
+                <td>@book.Genre</td>
+                <td>@book.PublishDate</td>
+                <td>@book.ISBN</td>
+                <td>@book.CopiesAvailable</td>
+                <td>
+                    <div class="btn-group">
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@book.Id">
+                            <i class="fa-solid fa-pencil"></i>
+                            Edit
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

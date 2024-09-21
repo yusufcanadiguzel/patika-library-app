@@ -14,6 +14,10 @@ namespace LibraryApp.DataAccess.Concrete.InMemory
     {
         public void Add(User entity)
         {
+            var index = InMemoryDbContext.Users.Count + 1;
+
+            entity.Id = index;
+
             InMemoryDbContext.Users.Add(entity);
         }
 

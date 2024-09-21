@@ -26,6 +26,13 @@ namespace LibraryApp.Business.Concrete
             return books;
         }
 
+        public Book GetOneBookById(int id)
+        {
+            var book = _bookDao.Get(b => b.Id.Equals(id));
+
+            return book;
+        }
+
         public void RemoveBook(Book book)
         {
             _bookDao.Update(book);

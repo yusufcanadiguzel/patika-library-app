@@ -11,6 +11,7 @@ namespace LibraryApp.Business.Contracts
     public interface IBookService
     {
         List<Book> GetAllBooks();
+        Book GetOneBookById(int id);
         void AddBook(Book book);
         void UpdateBook(Book book);
         void RemoveBook(Book book);

@@ -9,6 +9,10 @@ namespace LibraryApp.DataAccess.Concrete.InMemory
     {
         public void Add(Book entity)
         {
+            var index = InMemoryDbContext.Books.Count + 1;
+
+            entity.Id = index;
+
             InMemoryDbContext.Books.Add(entity);
         }
 

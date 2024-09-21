@@ -1,0 +1,12 @@
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\bin\Debug\net8.0\LibraryApp.Entities.deps.json
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\bin\Debug\net8.0\LibraryApp.Entities.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\bin\Debug\net8.0\LibraryApp.Entities.pdb
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.AssemblyInfoInputs.cache
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.AssemblyInfo.cs
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.sourcelink.json
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\refint\LibraryApp.Entities.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\LibraryApp.Entities.pdb
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.Entities\obj\Debug\net8.0\ref\LibraryApp.Entities.dll

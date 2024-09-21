@@ -11,6 +11,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IUserDao, InMemoryUserDao>();
 builder.Services.AddScoped<IUserService, UserManager>();
 
+builder.Services.AddScoped<IBookDao, InMemoryBookDao>();
+builder.Services.AddScoped<IBookService, BookManager>();
+
+builder.Services.AddScoped<IAuthorDao, InMemoryAuthorDao>();
+builder.Services.AddScoped<IAuthorService, AuthorManager>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

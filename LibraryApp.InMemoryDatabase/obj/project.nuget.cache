@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dptIHgwVf7/bLhKlzLjdit5VN45lHKMtI/u0FahEZlVMBBA7mRFkzgD4aQKKuzmPlGNuDhbLeo0LKGsVSprfTQ==",
+  "dgSpecHash": "hz9gYtf9O0g=",
   "success": true,
-  "projectFilePath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.InMemoryDatabase\\LibraryApp.InMemoryDatabase.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.InMemoryDatabase\\LibraryApp.InMemoryDatabase.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

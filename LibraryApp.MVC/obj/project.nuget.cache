@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NDyZ+LCTrq9cgKxue6Wcfe9DZNMxU2gnH0eXBjG5xxQfqPv0ZCP1Lpnvfgorn9JTdnjMU2taCZOD0cub0RQ2Ig==",
+  "dgSpecHash": "x3VQZNjIX7s=",
   "success": true,
-  "projectFilePath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

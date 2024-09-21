@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3/fHTLMVTAgNOtffagcaY6CktykqWfAFyRDSsjt8JFvbql8PkCfNKqF/cb4udjPQWC5HVE9RLWJKdIZ9JpbWvQ==",
+  "dgSpecHash": "CMlNEftBuTY=",
   "success": true,
-  "projectFilePath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Entities\\LibraryApp.Entities.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\LibraryApp.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

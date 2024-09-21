@@ -29,18 +29,11 @@ namespace LibraryApp.Business.Concrete
             _userDao.Delete(user);
         }
 
-        public List<User> GetAllUsers(Expression<Func<User, bool>>? expression = null)
+        public List<User> GetAllUsers()
         {
-            var users = _userDao.GetAll(expression);
+            var users = _userDao.GetAll();
 
             return users;
-        }
-
-        public User GetUser(Expression<Func<User, bool>> expression)
-        {
-            var user = _userDao.Get(expression);
-
-            return user;
         }
 
         public void UpdateUser(User user)

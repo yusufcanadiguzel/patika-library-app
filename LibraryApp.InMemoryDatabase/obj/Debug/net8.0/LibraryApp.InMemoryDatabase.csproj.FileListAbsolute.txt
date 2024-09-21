@@ -1,0 +1,16 @@
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\bin\Debug\net8.0\LibraryApp.InMemoryDatabase.deps.json
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\bin\Debug\net8.0\LibraryApp.InMemoryDatabase.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\bin\Debug\net8.0\LibraryApp.InMemoryDatabase.pdb
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\bin\Debug\net8.0\LibraryApp.Entities.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\bin\Debug\net8.0\LibraryApp.Entities.pdb
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.csproj.AssemblyReference.cache
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.AssemblyInfoInputs.cache
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.AssemblyInfo.cs
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.sourcelink.json
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryA.B736A907.Up2Date
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\refint\LibraryApp.InMemoryDatabase.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\LibraryApp.InMemoryDatabase.pdb
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.InMemoryDatabase\obj\Debug\net8.0\ref\LibraryApp.InMemoryDatabase.dll

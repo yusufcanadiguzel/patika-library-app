@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
       "projectName": "LibraryApp.MVC",
-      "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
+      "projectPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.MVC\\obj\\",
+      "outputPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,17 +104,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Business\\LibraryApp.Business.csproj": {
-              "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Business\\LibraryApp.Business.csproj"
+            "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\LibraryApp.Business.csproj": {
+              "projectPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\LibraryApp.Business.csproj"
             },
-            "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj": {
-              "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj"
+            "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj"
             }
           }
         }
@@ -152,7 +153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

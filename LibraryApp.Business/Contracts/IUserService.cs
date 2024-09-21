@@ -10,8 +10,7 @@ namespace LibraryApp.Business.Contracts
 {
     public interface IUserService
     {
-        List<User> GetAllUsers(Expression<Func<User, bool>>? expression = null);
-        User GetUser(Expression<Func<User, bool>> expression);
+        List<User> GetAllUsers();
         void AddUser(User user);
         void UpdateUser(User user);
         void DeleteUser(User user);

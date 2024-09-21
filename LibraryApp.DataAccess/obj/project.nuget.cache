@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cm0jVIPzlLrk9EcvGBI3Y7CLtmPrHnLyNjwdejCb3yhtK4IXK5TJHUZda++9JWELVFNd1SK3hLmX4E3Slkr6jA==",
+  "dgSpecHash": "QycSvvohcSo=",
   "success": true,
-  "projectFilePath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LibraryApp.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/LibraryApp.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryApp.Entities.dll": {}
+        }
+      },
+      "LibraryApp.InMemoryDatabase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LibraryApp.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryApp.InMemoryDatabase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryApp.InMemoryDatabase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibraryApp.Entities/1.0.0": {
+      "type": "project",
+      "path": "../LibraryApp.Entities/LibraryApp.Entities.csproj",
+      "msbuildProject": "../LibraryApp.Entities/LibraryApp.Entities.csproj"
+    },
+    "LibraryApp.InMemoryDatabase/1.0.0": {
+      "type": "project",
+      "path": "../LibraryApp.InMemoryDatabase/LibraryApp.InMemoryDatabase.csproj",
+      "msbuildProject": "../LibraryApp.InMemoryDatabase/LibraryApp.InMemoryDatabase.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LibraryApp.Entities >= 1.0.0",
+      "LibraryApp.InMemoryDatabase >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yusuf\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj",
+      "projectName": "LibraryApp.DataAccess",
+      "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.DataAccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Entities\\LibraryApp.Entities.csproj": {
+              "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Entities\\LibraryApp.Entities.csproj"
+            },
+            "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.InMemoryDatabase\\LibraryApp.InMemoryDatabase.csproj": {
+              "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.InMemoryDatabase\\LibraryApp.InMemoryDatabase.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

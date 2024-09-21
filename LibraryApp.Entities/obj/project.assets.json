@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\LibraryApp.Entities.csproj",
+      "projectUniqueName": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Entities\\LibraryApp.Entities.csproj",
       "projectName": "LibraryApp.Entities",
-      "projectPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\LibraryApp.Entities.csproj",
+      "projectPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Entities\\LibraryApp.Entities.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\obj\\",
+      "outputPath": "C:\\Development\\CSharp\\patika-library-app\\LibraryApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

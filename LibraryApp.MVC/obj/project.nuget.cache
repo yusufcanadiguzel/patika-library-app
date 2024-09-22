@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "xdZgz9oaJg8=",
+  "dgSpecHash": "0itap8yeTJo=",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yusuf\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\8.0.8\\microsoft.aspnetcore.dataprotection.abstractions.8.0.8.nupkg.sha512",
-    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

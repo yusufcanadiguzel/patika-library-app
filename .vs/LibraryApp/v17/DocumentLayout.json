@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.business\\dependecyresolvers\\autofac\\afbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|solutionrelative:libraryapp.business\\dependecyresolvers\\autofac\\afbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\book\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -57,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -114,11 +118,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AfBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "RelativeToolTip": "LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:59:26.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SignIn.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Auth\\SignIn.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Auth\\SignIn.cshtml",
@@ -131,12 +148,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Auth\\SignUp.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Auth\\SignUp.cshtml",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Auth\\SignUp.cshtml*",
-              "RelativeToolTip": "LibraryApp.MVC\\Views\\Auth\\SignUp.cshtml*",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Auth\\SignUp.cshtml",
+              "RelativeToolTip": "LibraryApp.MVC\\Views\\Auth\\SignUp.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T11:51:01.936Z",
@@ -144,20 +161,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "LibraryApp.MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T11:47:00.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Book\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Book\\Index.cshtml",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BookCard.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Book\\BookCard.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Book\\BookCard.cshtml",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Book\\Get.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Book\\Get.cshtml",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
@@ -209,20 +226,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
               "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwE8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T10:29:44.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\BookController.cs",
@@ -235,20 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryApp.MVC\\Program.cs",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Program.cs",
-              "RelativeToolTip": "LibraryApp.MVC\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T10:24:06.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_NavBar.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
@@ -261,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\_ViewImports.cshtml",
@@ -274,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Controllers\\BookController.cs",
@@ -287,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Controllers\\AuthorController.cs",
@@ -300,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Controllers\\AuthController.cs",
@@ -313,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "_NavBar.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Shared\\_NavBar.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Shared\\_NavBar.cshtml",
@@ -326,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -339,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Index.cshtml",
@@ -352,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Get.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Get.cshtml",
@@ -365,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "SoftDelete.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\SoftDelete.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\SoftDelete.cshtml",
@@ -378,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -391,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Create.cshtml",
@@ -404,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -417,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -430,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -443,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -452,6 +456,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T10:12:03.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Program.cs",
+              "RelativeToolTip": "LibraryApp.MVC\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:24:06.902Z",
               "EditorCaption": ""
             }
           ]

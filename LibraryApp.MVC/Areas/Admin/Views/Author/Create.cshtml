@@ -1,18 +1,22 @@
-﻿@model Author
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Author
 
 <div class="text-center">
     <div class="display-6 my-3">
-        <i class="fa-solid fa-pencil"></i>
-        Edit
+        Create a Author
     </div>
 </div>
 
-<form method="post" asp-action="Edit">
-    <input type="hidden" asp-for="Id"/>
+<form method="post" asp-action="Create">
+
 
     <div class="form-group my-3">
         <label asp-for="FirstName">First Name</label>
-        <input class="form-control" asp-for="FirstName"/>
+        <input class="form-control" asp-for="FirstName" />
     </div>
 
     <div class="form-group my-3">
@@ -25,14 +29,14 @@
         <input class="form-control" asp-for="DateOfBirth" />
     </div>
 
-    <div class="btn-group">
+    <div class="btn-group my-3">
         <a class="btn btn-outline-primary" asp-action="Index">
-            <i class="fa-solid fa-left-arrow"></i>
+            <i class="fa-solid fa-arrow-left"></i>
             Back
         </a>
-        <button class="btn btn-warning" asp-action="Edit">
-            <i class="fa-solid fa-pencil"></i>
-            Edit
+        <button class="btn btn-success" type="submit" asp-action="Create">
+            <i class="fa-solid fa-floppy-disk"></i>
+            Save
         </button>
     </div>
 </form>

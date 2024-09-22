@@ -18,5 +18,12 @@ namespace LibraryApp.MVC.Controllers
 
             return View(authors);
         }
+
+        public IActionResult Get([FromRoute(Name = "id")] int id)
+        {
+            var author = _serviceManager.AuthorService.GetOneAuthorById(id);
+
+            return View(author);
+        }
     }
 }

@@ -2,20 +2,21 @@
 
 <div class="text-center">
     <div class="display-6 my-3">
-        Create a Author
+        <i class="fa-solid fa-pencil"></i>
+        Edit
     </div>
 </div>
 
-<form method="post" asp-action="Create">
-    
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
 
     <div class="form-group my-3">
-        <label asp-for="FirstName">FirstName</label>
-        <input class="form-control" asp-for="FirstName"/>
+        <label asp-for="FirstName">First Name</label>
+        <input class="form-control" asp-for="FirstName" />
     </div>
 
     <div class="form-group my-3">
-        <label asp-for="LastName">LastName</label>
+        <label asp-for="LastName">Last Name</label>
         <input class="form-control" asp-for="LastName" />
     </div>
 
@@ -24,14 +25,14 @@
         <input class="form-control" asp-for="DateOfBirth" />
     </div>
 
-    <div class="btn-group my-3">
+    <div class="btn-group">
         <a class="btn btn-outline-primary" asp-action="Index">
-            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-left-arrow"></i>
             Back
         </a>
-        <button class="btn btn-success" type="submit" asp-action="Create">
-            <i class="fa-solid fa-floppy-disk"></i>
-            Save
+        <button class="btn btn-warning" asp-action="Edit">
+            <i class="fa-solid fa-pencil"></i>
+            Edit
         </button>
     </div>
 </form>

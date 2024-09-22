@@ -1,6 +1,6 @@
 ﻿<nav class="navbar border-bottom border-bottom navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" asp-controller="Home" asp-action="Index">Library App</a>
+        <a class="navbar-brand text-black fw-bold" asp-controller="Home" asp-action="Index">Library App</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,23 +10,20 @@
 
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="nav-link text-black" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" asp-area="Admin" asp-controller="Book" asp-action="Index">Books</a>
+                    <a class="nav-link text-black" asp-area="Admin" asp-controller="Book" asp-action="Index">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" asp-area="Admin" asp-controller="Author" asp-action="Index">Authors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" asp-area="Admin" asp-controller="User" asp-action="Index">Users</a>
+                    <a class="nav-link text-black" asp-area="Admin" asp-controller="Author" asp-action="Index">Authors</a>
                 </li>
             </ul>
 
             <ul class="navbar-nav">
                 <li>
-                    <a class="btn btn-secondary" asp-action="Index">
-                        Admin
+                    <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index" target="_blank">
+                        Web
                     </a>
                 </li>
             </ul>

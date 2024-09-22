@@ -99,5 +99,12 @@ namespace LibraryApp.MVC.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+
+        public async Task<IActionResult> SignOut()
+        {
+            await HttpContext.SignOutAsync();
+
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

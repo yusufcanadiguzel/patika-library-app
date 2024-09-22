@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
+using System.Buffers.Text;
 using System.Security.Claims;
 
 namespace LibraryApp.MVC.Controllers
@@ -71,7 +72,9 @@ namespace LibraryApp.MVC.Controllers
                 return View(signInViewModel);
             }
 
-            if (_serviceManager.UserService.CheckUserPassword(_dataProtector.Unprotect(signInViewModel.Password), signInViewModel.Email))
+            var rawPassword = _dataProtector.Unprotect(user.Password);
+
+            if (rawPassword == signInViewModel.Password)
             {
                 var claims = new List<Claim>();
 

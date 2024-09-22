@@ -11,38 +11,38 @@
 <form method="post" asp-action="Edit">
     <input type="hidden" asp-for="Id" />
 
-    <div class="form-group">
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="Title" type="text" class="form-control" placeholder="@Model.Title"/>
         <label asp-for="Title">Title</label>
-        <input class="form-control" asp-for="Title" placeholder="@Model.Title" />
     </div>
 
-    <div class="form-group">
+    <div class="form-floating mb-2 my-2">
         <label asp-for="AuthorId">Author</label>
-        <input class="form-control" asp-for="AuthorId" placeholder="@Model.AuthorId" />
+        <select class="form-control" asp-for="AuthorId" asp-items="@ViewBag.Authors"></select>
     </div>
 
-    <div class="form-group">
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="Genre" type="text" class="form-control" placeholder="@Model.Genre" />
         <label asp-for="Genre">Genre</label>
-        <input class="form-control" asp-for="Genre" placeholder="@Model.Genre" />
     </div>
 
-    <div class="form-group">
-        <label asp-for="PublishDate">PublishDate</label>
-        <input class="form-control" asp-for="PublishDate" placeholder="@Model.PublishDate" />
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="PublishDate" type="date" class="form-control" placeholder="@Model.PublishDate"/>
+        <label asp-for="PublishDate">Publish Date</label>
     </div>
 
-    <div class="form-group">
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="ISBN" type="text" class="form-control" placeholder="@Model.ISBN" />
         <label asp-for="ISBN">ISBN</label>
-        <input class="form-control" asp-for="ISBN" placeholder="@Model.ISBN" />
     </div>
 
-    <div class="form-group">
-        <label asp-for="CopiesAvailable">CopiesAvailable</label>
-        <input class="form-control" asp-for="CopiesAvailable" placeholder="@Model.CopiesAvailable" />
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="CopiesAvailable" type="text" class="form-control" placeholder="@Model.CopiesAvailable" />
+        <label asp-for="CopiesAvailable">Copies Available</label>
     </div>
 
-    <div class="btn-group my-3">
-        <a class="btn btn-outline-primary" asp-action="Index">
+    <div>
+        <a class="btn btn-primary" asp-action="Index">
             <i class="fa-solid fa-arrow-left"></i>
             Back
         </a>

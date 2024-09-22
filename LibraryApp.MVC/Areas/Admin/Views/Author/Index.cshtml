@@ -30,7 +30,7 @@
                 <td>@author.Id</td>
                 <td>@author.FirstName</td>
                 <td>@author.LastName</td>
-                <td>@author.DateOfBirth</td>
+                <td>@author.DateOfBirth.ToShortDateString()</td>
                 <td>
                     <div>
                         <a class="btn btn-primary" asp-area="" asp-action="Get" asp-route-id="@author.Id" target="_blank">

@@ -34,11 +34,11 @@
                 <td>@book.Title</td>
                 <td>@book.AuthorId</td>
                 <td>@book.Genre</td>
-                <td>@book.PublishDate</td>
+                <td>@book.PublishDate.ToShortDateString()</td>
                 <td>@book.ISBN</td>
                 <td>@book.CopiesAvailable</td>
                 <td>
-                    <div class="btn-group">
+                    <div>
                         <a class="btn btn-primary" asp-action="Get" asp-route-id="@book.Id">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             Details

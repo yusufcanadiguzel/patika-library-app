@@ -3,39 +3,39 @@
 <form method="post" asp-action="Create">
     <input type="hidden" asp-for="Id" />
 
-    <div class="form-group my-3">
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="Title" type="text" class="form-control" />
         <label asp-for="Title">Title</label>
-        <input class="form-control" asp-for="Title" />
     </div>
 
-    <div class="form-group my-3">
+    <div class="form-floating mb-2 my-2">
         <label asp-for="AuthorId">Author</label>
-        <select class="form-control" asp-items="@ViewBag.Authors" asp-for="AuthorId"></select>
+        <select class="form-control" asp-for="AuthorId" asp-items="@ViewBag.Authors"></select>
     </div>
 
-    <div class="form-group my-3">
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="Genre" type="text" class="form-control" />
         <label asp-for="Genre">Genre</label>
-        <input class="form-control" asp-for="Genre" />
     </div>
 
-    <div class="form-group my-3">
-        <label asp-for="PublishDate">PublishDate</label>
-        <input class="form-control" asp-for="PublishDate" />
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="PublishDate" type="date" class="form-control" />
+        <label asp-for="PublishDate">Publish Date</label>
     </div>
 
-    <div class="form-group my-3">
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="ISBN" type="text" class="form-control" />
         <label asp-for="ISBN">ISBN</label>
-        <input class="form-control" asp-for="ISBN" />
     </div>
 
-    <div class="form-group my-3">
-        <label asp-for="CopiesAvailable">CopiesAvailable</label>
-        <input class="form-control" asp-for="CopiesAvailable" />
+    <div class="form-floating mb-2 my-2">
+        <input asp-for="CopiesAvailable" type="text" class="form-control" />
+        <label asp-for="CopiesAvailable">Copies Available</label>
     </div>
 
-    <div class="btn-group">
-        <a class="btn btn-outline-primary" asp-action="Index">
-            <i class="fa fa-arrow"></i>
+    <div>
+        <a class="btn btn-primary" asp-action="Index">
+            <i class="fa fa-arrow-left"></i>
             Back
         </a>
         <button class="btn btn-success" type="submit" asp-action="Create">

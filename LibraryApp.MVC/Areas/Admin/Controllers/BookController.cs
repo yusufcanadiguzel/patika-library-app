@@ -41,6 +41,8 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
 
         public IActionResult Edit([FromRoute(Name = "id")] int id)
         {
+            ViewBag.Authors = new SelectList(items: _serviceManager.AuthorService.GetAllAuthors(), selectedValue: "1", dataTextField: "FullName", dataValueField: "Id");
+
             var book = _serviceManager.BookService.GetOneBookById(id);
 
             return View(book);

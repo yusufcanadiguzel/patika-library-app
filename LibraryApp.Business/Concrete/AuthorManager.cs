@@ -3,11 +3,6 @@ using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
 using LibraryApp.InMemoryDatabase;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryApp.Business.Concrete
 {
@@ -44,6 +39,7 @@ namespace LibraryApp.Business.Concrete
             return author;
         }
 
+        // Set author to passive
         public void SoftDeleteAuthor(AuthorSoftDeleteDto authorSoftDeleteDto)
         {
             _authorDao.SoftDelete(authorSoftDeleteDto.IsDeleted, authorSoftDeleteDto.Id);

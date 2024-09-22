@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LibraryApp.Entities.Contract
+﻿namespace LibraryApp.Entities.Contract
 {
+    // Type safety object
     public interface IEntity
     {
     }

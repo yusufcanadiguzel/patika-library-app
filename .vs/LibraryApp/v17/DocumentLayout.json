@@ -1,60 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 248,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T15:30:48.603Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 248,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Auth\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "LibraryApp.MVC\\Views\\Auth\\SignIn.cshtml",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Views\\Auth\\SignIn.cshtml",
-              "RelativeToolTip": "LibraryApp.MVC\\Views\\Auth\\SignIn.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T15:18:58.938Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

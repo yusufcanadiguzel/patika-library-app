@@ -2,7 +2,6 @@
 using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
-using System.Linq.Expressions;
 
 namespace LibraryApp.Business.Concrete
 {
@@ -39,6 +38,7 @@ namespace LibraryApp.Business.Concrete
             _bookDao.Update(book);
         }
 
+        // Set book to passive
         public void SoftDeleteBook(BookSoftDeleteDto bookSoftDeleteDto)
         {
             _bookDao.SoftDelete(bookSoftDeleteDto.IsDeleted, bookSoftDeleteDto.Id);

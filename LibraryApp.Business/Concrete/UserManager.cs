@@ -46,6 +46,7 @@ namespace LibraryApp.Business.Concrete
             return user;
         }
 
+        // Set user to passive
         public void SoftDeleteUser(bool isDeleted, int id)
         {
             _userDao.SoftDelete(isDeleted, id);

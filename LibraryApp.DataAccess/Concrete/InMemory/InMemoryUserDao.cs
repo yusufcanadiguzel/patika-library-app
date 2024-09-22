@@ -1,12 +1,7 @@
 ﻿using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.InMemoryDatabase;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryApp.DataAccess.Concrete.InMemory
 {

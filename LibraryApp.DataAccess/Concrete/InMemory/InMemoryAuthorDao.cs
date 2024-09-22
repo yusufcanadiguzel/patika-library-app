@@ -30,9 +30,18 @@ namespace LibraryApp.DataAccess.Concrete.InMemory
 
         public List<Author> GetAll(Expression<Func<Author, bool>>? expression = null)
         {
-            var authors = InMemoryDbContext.Authors.Where(expression.Compile()).ToList();
+            var authors = expression is null
+                ? InMemoryDbContext.Authors.ToList()
+                : InMemoryDbContext.Authors.Where(expression.Compile()).ToList();
 
             return authors;
+        }
+
+        public void SoftDelete(bool isDeleted, int id)
+        {
+            var deletedEntity = Get(a => a.Id.Equals(id));
+
+            deletedEntity.IsDeleted = isDeleted;
         }
 
         public void Update(Author entity)

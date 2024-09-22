@@ -1,6 +1,8 @@
 ﻿using LibraryApp.Business.Contracts;
 using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
+using LibraryApp.Entities.Dtos;
+using LibraryApp.InMemoryDatabase;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,9 +32,21 @@ namespace LibraryApp.Business.Concrete
 
         public List<Author> GetAllAuthors()
         {
-            var authors = _authorDao.GetAll();
+            var authors = _authorDao.GetAll(a => a.IsDeleted.Equals(false));
 
             return authors;
+        }
+
+        public Author GetOneAuthorById(int id)
+        {
+            var author = InMemoryDbContext.Authors.Where(a => a.Id.Equals(id)).SingleOrDefault();
+
+            return author;
+        }
+
+        public void SoftDeleteUser(AuthorSoftDeleteDto authorSoftDeleteDto)
+        {
+            _authorDao.SoftDelete(authorSoftDeleteDto.IsDeleted, authorSoftDeleteDto.Id);
         }
 
         public void UpdateAuthor(Author author)

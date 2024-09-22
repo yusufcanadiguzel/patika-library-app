@@ -21,5 +21,8 @@ namespace LibraryApp.DataAccess.Contracts
 
         //Delete entity
         void Delete(T entity);
+
+        //Soft delete entity
+        void SoftDelete(bool isDeleted, int id);
     }
 }

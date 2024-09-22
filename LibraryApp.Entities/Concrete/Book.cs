@@ -11,5 +11,6 @@ namespace LibraryApp.Entities.Concrete
         public DateTime PublishDate { get; set; }
         public string ISBN { get; set; } = string.Empty;
         public int CopiesAvailable { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
 }

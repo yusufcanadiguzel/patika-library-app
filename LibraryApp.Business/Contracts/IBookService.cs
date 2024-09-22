@@ -15,5 +15,6 @@ namespace LibraryApp.Business.Contracts
         void AddBook(Book book);
         void UpdateBook(Book book);
         void RemoveBook(Book book);
+        void SoftDeleteUser(bool isDeleted, int id);
     }
 }

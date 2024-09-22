@@ -1,0 +1,53 @@
+﻿@model List<Author>
+
+<div class="text-center my-3">
+    <div class="display-6">
+        Authors
+    </div>
+</div>
+
+<div class="d-flex justify-content-end my-3">
+    <a class="btn btn-success" asp-action="Create">
+        <i class="fa-solid fa-plus"></i>
+        Create
+    </a>
+</div>
+
+<table class="table table-striped table-hover my-3">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Date of Birth</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var author in Model)
+        {
+            <tr>
+                <td>@author.Id</td>
+                <td>@author.FirstName</td>
+                <td>@author.LastName</td>
+                <td>@author.DateOfBirth</td>
+                <td>
+                    <div>
+                        <a class="btn btn-primary" asp-action="Get" asp-route-id="@author.Id">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Details
+                        </a>
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@author.Id">
+                            <i class="fa-solid fa-pencil"></i>
+                            Edit
+                        </a>
+                        <a class="btn btn-danger" asp-action="SoftDelete" asp-route-id="@author.Id">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

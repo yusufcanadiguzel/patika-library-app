@@ -17,6 +17,10 @@ builder.Services.AddScoped<IBookService, BookManager>();
 builder.Services.AddScoped<IAuthorDao, InMemoryAuthorDao>();
 builder.Services.AddScoped<IAuthorService, AuthorManager>();
 
+builder.Services.AddScoped<IServiceManager, ServiceManager>();
+
+builder.Services.AddAutoMapper(typeof(Program));
+
 var app = builder.Build();
 
 app.UseStaticFiles();

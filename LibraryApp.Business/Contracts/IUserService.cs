@@ -14,5 +14,6 @@ namespace LibraryApp.Business.Contracts
         void AddUser(User user);
         void UpdateUser(User user);
         void DeleteUser(User user);
+        void SoftDeleteUser(bool isDeleted, int id);
     }
 }

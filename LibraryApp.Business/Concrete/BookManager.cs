@@ -38,6 +38,11 @@ namespace LibraryApp.Business.Concrete
             _bookDao.Update(book);
         }
 
+        public void SoftDeleteUser(bool isDeleted, int id)
+        {
+            _bookDao.SoftDelete(isDeleted, id);
+        }
+
         public void UpdateBook(Book book)
         {
             _bookDao.Update(book);

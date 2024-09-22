@@ -37,6 +37,13 @@ namespace LibraryApp.DataAccess.Concrete.InMemory
             return books;
         }
 
+        public void SoftDelete(bool isDeleted, int id)
+        {
+            var deletedEntity = Get(a => a.Id.Equals(id));
+
+            deletedEntity.IsDeleted = isDeleted;
+        }
+
         public void Update(Book entity)
         {
             var updatedEntity = Get(b => b.Id.Equals(entity.Id));

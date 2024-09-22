@@ -40,3 +40,4 @@ C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\LibraryAp
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\LibraryApp.MVC.genruntimeconfig.cache
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\ref\LibraryApp.MVC.dll
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\libman.json
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\AutoMapper.dll

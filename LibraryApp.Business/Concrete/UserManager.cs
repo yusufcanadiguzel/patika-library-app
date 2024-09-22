@@ -36,6 +36,11 @@ namespace LibraryApp.Business.Concrete
             return users;
         }
 
+        public void SoftDeleteUser(bool isDeleted, int id)
+        {
+            _userDao.SoftDelete(isDeleted, id);
+        }
+
         public void UpdateUser(User user)
         {
             _userDao.Update(user);

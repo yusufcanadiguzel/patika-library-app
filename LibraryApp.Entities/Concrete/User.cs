@@ -15,5 +15,6 @@ namespace LibraryApp.Entities.Concrete
         public string Password { get; set; } = string.Empty;
         public string PhoneNumber { get; set; } = string.Empty;
         public DateTime JoinDate { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
 }

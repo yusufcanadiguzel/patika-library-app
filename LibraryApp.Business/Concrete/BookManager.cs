@@ -1,6 +1,7 @@
 ﻿using LibraryApp.Business.Contracts;
 using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
+using LibraryApp.Entities.Dtos;
 using System.Linq.Expressions;
 
 namespace LibraryApp.Business.Concrete
@@ -21,7 +22,7 @@ namespace LibraryApp.Business.Concrete
 
         public List<Book> GetAllBooks()
         {
-            var books = _bookDao.GetAll();
+            var books = _bookDao.GetAll(b => b.IsDeleted.Equals(false));
 
             return books;
         }
@@ -38,9 +39,9 @@ namespace LibraryApp.Business.Concrete
             _bookDao.Update(book);
         }
 
-        public void SoftDeleteUser(bool isDeleted, int id)
+        public void SoftDeleteBook(BookSoftDeleteDto bookSoftDeleteDto)
         {
-            _bookDao.SoftDelete(isDeleted, id);
+            _bookDao.SoftDelete(bookSoftDeleteDto.IsDeleted, bookSoftDeleteDto.Id);
         }
 
         public void UpdateBook(Book book)

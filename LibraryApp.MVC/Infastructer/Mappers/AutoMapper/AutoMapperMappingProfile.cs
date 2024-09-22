@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
+using LibraryApp.MVC.ViewModels;
 
 namespace LibraryApp.MVC.Infastructer.Mappers.AutoMapper
 {
@@ -10,6 +11,10 @@ namespace LibraryApp.MVC.Infastructer.Mappers.AutoMapper
         {
             //Author mappings
             CreateMap<AuthorSoftDeleteDto, Author>();
+            CreateMap<AuthorDetailsViewModel, Author>();
+
+            //Book mappings
+            CreateMap<BookSoftDeleteDto, Book>();
         }
     }
 }

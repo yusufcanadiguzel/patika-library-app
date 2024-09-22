@@ -9,5 +9,6 @@ namespace LibraryApp.Entities.Concrete
         public string LastName { get; set; } = string.Empty;
         public DateTime DateOfBirth { get; set; }
         public bool IsDeleted { get; set; } = false;
+        public string FullName => FirstName + " " + LastName;
     }
 }

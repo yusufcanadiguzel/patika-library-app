@@ -59,7 +59,7 @@ namespace LibraryApp.MVC.Controllers
         [HttpPost]
         public IActionResult SoftDelete([FromForm] AuthorSoftDeleteDto authorSoftDeleteDto)
         {
-            _serviceManager.AuthorService.SoftDeleteUser(authorSoftDeleteDto);
+            _serviceManager.AuthorService.SoftDeleteAuthor(authorSoftDeleteDto);
 
             return RedirectToAction("Index");
         }

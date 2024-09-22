@@ -1,4 +1,5 @@
 ﻿using LibraryApp.Entities.Concrete;
+using LibraryApp.Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,6 @@ namespace LibraryApp.Business.Contracts
         void AddBook(Book book);
         void UpdateBook(Book book);
         void RemoveBook(Book book);
-        void SoftDeleteUser(bool isDeleted, int id);
+        void SoftDeleteBook(BookSoftDeleteDto bookSoftDeleteDto);
     }
 }

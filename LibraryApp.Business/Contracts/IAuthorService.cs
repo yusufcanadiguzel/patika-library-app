@@ -15,6 +15,6 @@ namespace LibraryApp.Business.Contracts
         void AddAuthor(Author author);
         void UpdateAuthor(Author author);
         void DeleteAuthor(Author author);
-        void SoftDeleteUser(AuthorSoftDeleteDto authorSoftDeleteDto);
+        void SoftDeleteAuthor(AuthorSoftDeleteDto authorSoftDeleteDto);
     }
 }

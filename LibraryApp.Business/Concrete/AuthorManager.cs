@@ -44,7 +44,7 @@ namespace LibraryApp.Business.Concrete
             return author;
         }
 
-        public void SoftDeleteUser(AuthorSoftDeleteDto authorSoftDeleteDto)
+        public void SoftDeleteAuthor(AuthorSoftDeleteDto authorSoftDeleteDto)
         {
             _authorDao.SoftDelete(authorSoftDeleteDto.IsDeleted, authorSoftDeleteDto.Id);
         }

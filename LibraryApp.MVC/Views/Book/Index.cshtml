@@ -18,6 +18,7 @@
             <th>Publish Date</th>
             <th>ISBN</th>
             <th>CopiesAvailable</th>
+            <th>Operations</th>
         </tr>
     </thead>
 
@@ -34,9 +35,17 @@
                 <td>@book.CopiesAvailable</td>
                 <td>
                     <div class="btn-group">
+                        <a class="btn btn-primary" asp-action="Get" asp-route-id="@book.Id">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Details
+                        </a>
                         <a class="btn btn-warning" asp-action="Edit" asp-route-id="@book.Id">
                             <i class="fa-solid fa-pencil"></i>
                             Edit
+                        </a>
+                        <a class="btn btn-danger" asp-action="SoftDelete" asp-route-id="@book.Id">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
                         </a>
                     </div>
                 </td>

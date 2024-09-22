@@ -11,7 +11,7 @@ namespace LibraryApp.MVC.Infastructer.Mappers.AutoMapper
         {
             //Author mappings
             CreateMap<AuthorSoftDeleteDto, Author>();
-            CreateMap<AuthorDetailsViewModel, Author>();
+            CreateMap<AuthorDetailsViewModel, Author>().ReverseMap();
 
             //Book mappings
             CreateMap<BookSoftDeleteDto, Book>();

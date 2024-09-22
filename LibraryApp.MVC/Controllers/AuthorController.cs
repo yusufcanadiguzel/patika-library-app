@@ -1,4 +1,7 @@
-﻿using LibraryApp.Business.Contracts;
+﻿using AutoMapper;
+using LibraryApp.Business.Contracts;
+using LibraryApp.Entities.Concrete;
+using LibraryApp.MVC.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryApp.MVC.Controllers
@@ -6,10 +9,12 @@ namespace LibraryApp.MVC.Controllers
     public class AuthorController : Controller
     {
         private readonly IServiceManager _serviceManager;
+        private readonly IMapper _mapper;
 
-        public AuthorController(IServiceManager serviceManager)
+        public AuthorController(IServiceManager serviceManager, IMapper mapper)
         {
             _serviceManager = serviceManager;
+            _mapper = mapper;
         }
 
         public IActionResult Index()
@@ -23,7 +28,9 @@ namespace LibraryApp.MVC.Controllers
         {
             var author = _serviceManager.AuthorService.GetOneAuthorById(id);
 
-            return View(author);
+            var viewModel = _mapper.Map<AuthorDetailsViewModel>(author);
+
+            return View(viewModel);
         }
     }
 }

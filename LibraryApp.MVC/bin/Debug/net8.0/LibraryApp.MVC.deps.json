@@ -11,7 +11,8 @@
           "AutoMapper": "13.0.1",
           "FontAwesome": "4.7.0",
           "LibraryApp.Business": "1.0.0",
-          "LibraryApp.DataAccess": "1.0.0"
+          "LibraryApp.DataAccess": "1.0.0",
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "8.0.8"
         },
         "runtime": {
           "LibraryApp.MVC.dll": {}
@@ -29,6 +30,14 @@
         }
       },
       "FontAwesome/4.7.0": {},
+      "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.8": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.824.36908"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
       "Microsoft.Extensions.Options/6.0.0": {
         "dependencies": {
@@ -106,6 +115,13 @@
       "sha512": "sha512-n4H/brfszElyoZ4kmGh8E75uqvLzLvFr3h2PFVdPH1LwUmWIpeqdaW2pcC4oZAhg7sESyObh0IZpAI8COCNeUg==",
       "path": "fontawesome/4.7.0",
       "hashPath": "fontawesome.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7VU0V3HoBWm341UFxtNXFdWBPXgp+oruaKPGtxuBOfy4pBV2HPk3oY80H6gjgzh+pMmFraa0hNmpEu9+Qp+UBg==",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/8.0.8",
+      "hashPath": "microsoft.aspnetcore.dataprotection.abstractions.8.0.8.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "type": "package",

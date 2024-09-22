@@ -11,6 +11,8 @@ namespace LibraryApp.Business.Contracts
     public interface IUserService
     {
         List<User> GetAllUsers();
+        User GetOneUserByEmail(string email);
+        bool CheckUserPassword(string password, string email);
         void AddUser(User user);
         void UpdateUser(User user);
         void DeleteUser(User user);

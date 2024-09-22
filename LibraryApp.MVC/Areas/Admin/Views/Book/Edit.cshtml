@@ -1,0 +1,55 @@
+﻿@model Book
+
+<div class="text-center my-3">
+    <div class="display-6">
+        <i class="fa-solid fa-pencil"></i>
+        Edit
+    </div>
+</div>
+
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Title">Title</label>
+        <input class="form-control" asp-for="Title" placeholder="@Model.Title" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AuthorId">Author</label>
+        <input class="form-control" asp-for="AuthorId" placeholder="@Model.AuthorId" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Genre">Genre</label>
+        <input class="form-control" asp-for="Genre" placeholder="@Model.Genre" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PublishDate">PublishDate</label>
+        <input class="form-control" asp-for="PublishDate" placeholder="@Model.PublishDate" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ISBN">ISBN</label>
+        <input class="form-control" asp-for="ISBN" placeholder="@Model.ISBN" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CopiesAvailable">CopiesAvailable</label>
+        <input class="form-control" asp-for="CopiesAvailable" placeholder="@Model.CopiesAvailable" />
+    </div>
+
+    <div class="btn-group my-3">
+        <a class="btn btn-outline-primary" asp-action="Index">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back
+        </a>
+
+        <button class="btn btn-success" asp-action="Edit">
+            <i class="fa-solid fa-floppy-disk"></i>
+            Save
+        </button>
+    </div>
+</form>

@@ -1,8 +1,21 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿<div class="alert alert-info fw-bold">
+    Hoş Geldin - @User.Claims.FirstOrDefault(x => x.Type == "email")?.Value -
+</div>
+
+@if(User.Claims.FirstOrDefault(x => x.Type == "id")?.Value != null)
+{
+    
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="display-3 my-20">
+    Welcome
+</div>
+
+<div>
+    <a class="btn btn-secondary" asp-controller="Auth" asp-action="SignIn">
+        Sign In
+    </a>
+    <a class="btn btn-warning" asp-controller="Auth" asp-action="SignUp">
+        Sign Up
+    </a>
 </div>

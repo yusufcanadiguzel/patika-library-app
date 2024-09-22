@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "isSF3lmojTY=",
+  "dgSpecHash": "xdZgz9oaJg8=",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\LibraryApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\8.0.8\\microsoft.aspnetcore.dataprotection.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",

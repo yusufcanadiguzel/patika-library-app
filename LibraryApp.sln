@@ -5,13 +5,13 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.Entities", "LibraryApp.Entities\LibraryApp.Entities.csproj", "{0C02B4D4-DF03-4538-AE34-9650F24A4509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.MVC", "LibraryApp.MVC\LibraryApp.MVC.csproj", "{849172A6-13CE-4D80-82A0-0CE12432C2EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.MVC", "LibraryApp.MVC\LibraryApp.MVC.csproj", "{849172A6-13CE-4D80-82A0-0CE12432C2EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.DataAccess", "LibraryApp.DataAccess\LibraryApp.DataAccess.csproj", "{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.DataAccess", "LibraryApp.DataAccess\LibraryApp.DataAccess.csproj", "{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.InMemoryDatabase", "LibraryApp.InMemoryDatabase\LibraryApp.InMemoryDatabase.csproj", "{16FA726D-9898-4248-9862-7D2FFEC02DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.InMemoryDatabase", "LibraryApp.InMemoryDatabase\LibraryApp.InMemoryDatabase.csproj", "{16FA726D-9898-4248-9862-7D2FFEC02DBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.Business", "LibraryApp.Business\LibraryApp.Business.csproj", "{1A3957E2-D742-4B48-96F4-D02E13EC831B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.Business", "LibraryApp.Business\LibraryApp.Business.csproj", "{1A3957E2-D742-4B48-96F4-D02E13EC831B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

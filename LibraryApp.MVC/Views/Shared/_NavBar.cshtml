@@ -13,19 +13,24 @@
                     <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" asp-controller="Book" asp-action="Index">Books</a>
+                    <a class="nav-link active" asp-area="" asp-controller="Book" asp-action="Index">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" asp-controller="Author" asp-action="Index">Authors</a>
+                    <a class="nav-link active" asp-area="" asp-controller="Author" asp-action="Index">Authors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" asp-controller="User" asp-action="Index">Users</a>
+                    <a class="nav-link active" asp-area="" asp-controller="User" asp-action="Index">Users</a>
                 </li>
             </ul>
 
             <ul class="navbar-nav">
                 <li>
-                    <a class="nav-link active" asp-controller="Dashboard" asp-action="Index" asp-area="Admin" target="_blank">Admin</a>
+                    <a class="btn btn-secondary" target="_blank" asp-area="Admin" asp-action="Index">
+                        Admin
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link active" asp-controller="Auth" asp-action="SignUp">SignUp</a>
                 </li>
             </ul>
 

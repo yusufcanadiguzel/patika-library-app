@@ -41,3 +41,5 @@ C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\LibraryAp
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\ref\LibraryApp.MVC.dll
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\libman.json
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css

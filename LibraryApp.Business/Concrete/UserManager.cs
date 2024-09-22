@@ -1,12 +1,6 @@
 ﻿using LibraryApp.Business.Contracts;
 using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryApp.Business.Concrete
 {
@@ -24,6 +18,15 @@ namespace LibraryApp.Business.Concrete
             _userDao.Add(user);
         }
 
+        public bool CheckUserPassword(string password, string email)
+        {
+            var user = GetOneUserByEmail(email);
+
+            var result = password.ToLower().Equals(user.Password.ToLower());
+
+            return result;
+        }
+
         public void DeleteUser(User user)
         {
             _userDao.Delete(user);
@@ -34,6 +37,13 @@ namespace LibraryApp.Business.Concrete
             var users = _userDao.GetAll();
 
             return users;
+        }
+
+        public User GetOneUserByEmail(string email)
+        {
+            var user = _userDao.Get(u => u.Email.ToLower().Equals(email.ToLower()));
+
+            return user;
         }
 
         public void SoftDeleteUser(bool isDeleted, int id)

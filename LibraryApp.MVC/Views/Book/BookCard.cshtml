@@ -1,0 +1,14 @@
+﻿@model Book
+
+<div class="col-sm-12 col-md-6 col-lg-4 my-2">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text">@Model.Genre</p>
+            <a class="btn btn-primary" asp-action="Get" asp-route-id="@Model.Id">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Details
+            </a>
+        </div>
+    </div>
+</div>

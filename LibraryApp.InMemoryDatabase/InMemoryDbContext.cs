@@ -15,7 +15,10 @@ namespace LibraryApp.InMemoryDatabase
 
         static InMemoryDbContext()
         {
-            Users = new List<User>();
+            Users = new List<User>()
+            {
+                new User(){ Id = 1, FullName = "admin", Email = "admin@admin.com", Password = "admin"},
+            };
             Authors = new List<Author>();
             Books = new List<Book>();
         }

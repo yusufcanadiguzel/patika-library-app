@@ -15,3 +15,10 @@ The Business layer is responsible for implementing the core logic of the applica
 
 ### Dependency Resolver
 - AutofacBusinessModule
+
+### Validation
+- FvAuthorValidator
+- FvBookValidator
+
+### Constants
+- Magic Strings

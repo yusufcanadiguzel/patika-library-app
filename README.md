@@ -12,12 +12,12 @@ Used tools and frameworks used in the project.
 - Bootstrap
 - AutoMapper
 - Autofac
+- Fluent Validation
 
 ### Purpose
 - Develop an ASP.NET Core MVC application. This application will be a comprehensive system to manage the operations of books and authors in a library. The project will include multiple models and pages.
 
 ### Upcoming Features
-- FluentValidation Implementation
 - EF Core Implementation
 - Role-Based Actions
 - Shopping

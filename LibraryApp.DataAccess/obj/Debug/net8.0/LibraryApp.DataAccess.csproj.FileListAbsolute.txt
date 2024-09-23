@@ -16,3 +16,5 @@ C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.DataAccess\obj\Debug\net8.0\Li
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.DataAccess\obj\Debug\net8.0\refint\LibraryApp.DataAccess.dll
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.DataAccess\obj\Debug\net8.0\LibraryApp.DataAccess.pdb
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.DataAccess\obj\Debug\net8.0\ref\LibraryApp.DataAccess.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.DataAccess\bin\Debug\net8.0\LibraryApp.DataAccess.runtimeconfig.json
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.DataAccess\obj\Debug\net8.0\LibraryApp.DataAccess.genruntimeconfig.cache

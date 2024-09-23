@@ -1,5 +1,5 @@
 # Data Access Layer
-The Data Access layer serves as the intermediary between the application and the data storage mechanism.
+The Data Access layer intermediates between the application and the data storage mechanism.
 
 ### Contracts
 - IEntityRepository<T>
@@ -11,3 +11,10 @@ The Data Access layer serves as the intermediary between the application and the
 - InMemoryAuthorRepository
 - InMemoryBookRepository
 - InMemoryUserRepository
+- EfEntityRepositoryBase 
+- EfAuthorRepository
+- EfBookRepository
+- EfUserRepository
+
+### Contexts
+- EfLibraryAppDbContext

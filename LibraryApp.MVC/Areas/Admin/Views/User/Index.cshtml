@@ -1,0 +1,50 @@
+﻿@model List<User>
+
+<div class="text-center my-3">
+    <div class="display-6">
+        Users
+    </div>
+</div>
+
+<div class="d-flex justify-content-end my-3">
+    <a class="btn btn-success" asp-action="Create">
+        <i class="fa-solid fa-plus"></i>
+        Create
+    </a>
+</div>
+
+<table class="table table-striped table-hover my-3">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Phone Number</th>
+            <th>Join Date</th>
+            <th>Is Deleted</th>
+            <th>Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>@user.Password</td>
+                <td>@user.PhoneNumber</td>
+                <td>@user.JoinDate.ToShortDateString()</td>
+                <td>
+                    <div>
+                        <a class="btn btn-danger" asp-action="SoftDelete" asp-route-id="@user.Id">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

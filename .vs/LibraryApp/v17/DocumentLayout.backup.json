@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.dataaccess\\contracts\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|solutionrelative:libraryapp.dataaccess\\contracts\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C02B4D4-DF03-4538-AE34-9650F24A4509}|LibraryApp.Entities\\LibraryApp.Entities.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C02B4D4-DF03-4538-AE34-9650F24A4509}|LibraryApp.Entities\\LibraryApp.Entities.csproj|solutionrelative:libraryapp.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.dataaccess\\contracts\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|solutionrelative:libraryapp.dataaccess\\contracts\\iuserdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.dataaccess\\concrete\\entityframework\\efentityframeworkbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|solutionrelative:libraryapp.dataaccess\\concrete\\entityframework\\efentityframeworkbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.dataaccess\\concrete\\entityframework\\contexts\\eflibraryappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4F0BE14-C0EE-461E-BA59-DAFF8F9FF208}|LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj|solutionrelative:libraryapp.dataaccess\\concrete\\entityframework\\contexts\\eflibraryappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 273,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserDao.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Contracts\\IUserDao.cs",
-              "RelativeDocumentMoniker": "LibraryApp.DataAccess\\Contracts\\IUserDao.cs",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Contracts\\IUserDao.cs",
-              "RelativeToolTip": "LibraryApp.DataAccess\\Contracts\\IUserDao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:07:18.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EfLibraryAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Concrete\\EntityFramework\\Contexts\\EfLibraryAppDbContext.cs",
-              "RelativeDocumentMoniker": "LibraryApp.DataAccess\\Concrete\\EntityFramework\\Contexts\\EfLibraryAppDbContext.cs",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Concrete\\EntityFramework\\Contexts\\EfLibraryAppDbContext.cs",
-              "RelativeToolTip": "LibraryApp.DataAccess\\Concrete\\EntityFramework\\Contexts\\EfLibraryAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:49:55.782Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T17:26:46.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EfEntityFrameworkBase.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Concrete\\EntityFramework\\EfEntityFrameworkBase.cs",
-              "RelativeDocumentMoniker": "LibraryApp.DataAccess\\Concrete\\EntityFramework\\EfEntityFrameworkBase.cs",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Concrete\\EntityFramework\\EfEntityFrameworkBase.cs*",
-              "RelativeToolTip": "LibraryApp.DataAccess\\Concrete\\EntityFramework\\EfEntityFrameworkBase.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDIAAAANAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:49:27.881Z",
+              "WhenOpened": "2024-09-23T17:25:03.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T17:23:09.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IEntityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Contracts\\IEntityRepository.cs",
-              "RelativeDocumentMoniker": "LibraryApp.DataAccess\\Contracts\\IEntityRepository.cs",
-              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.DataAccess\\Contracts\\IEntityRepository.cs",
-              "RelativeToolTip": "LibraryApp.DataAccess\\Contracts\\IEntityRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "LibraryApp.Entities\\Concrete\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:48:44.326Z",
+              "WhenOpened": "2024-09-23T17:27:21.208Z",
               "EditorCaption": ""
             }
           ]

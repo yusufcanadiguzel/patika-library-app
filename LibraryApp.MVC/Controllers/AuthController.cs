@@ -40,6 +40,7 @@ namespace LibraryApp.MVC.Controllers
             }
 
             var user = _serviceManager.UserService.GetOneUserByEmail(signUpViewModel.Email);
+
             if (user is not null)
             {
                 ViewBag.Error = "User already exits.";

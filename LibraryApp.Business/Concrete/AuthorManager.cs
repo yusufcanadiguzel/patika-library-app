@@ -1,4 +1,6 @@
-﻿using LibraryApp.Business.Contracts;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using LibraryApp.Business.Contracts;
 using LibraryApp.DataAccess.Contracts;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
@@ -9,15 +11,24 @@ namespace LibraryApp.Business.Concrete
     public class AuthorManager : IAuthorService
     {
         private readonly IAuthorDao _authorDao;
+        private readonly IValidator<Author> _validator;
 
-        public AuthorManager(IAuthorDao authorDao)
+        public AuthorManager(IAuthorDao authorDao, IValidator<Author> validator)
         {
             _authorDao = authorDao;
+            _validator = validator;
         }
 
         public void AddAuthor(Author author)
         {
             _authorDao.Add(author);
+        }
+
+        public ValidationResult AddOneAuthor(Author author)
+        {
+            var validationResult = _validator.Validate(author);
+
+            return validationResult;
         }
 
         public void DeleteAuthor(Author author)

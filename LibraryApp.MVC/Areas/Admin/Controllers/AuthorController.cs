@@ -1,4 +1,5 @@
-﻿using LibraryApp.Business.Contracts;
+﻿using FluentValidation;
+using LibraryApp.Business.Contracts;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
 using Microsoft.AspNetCore.Authentication;
@@ -10,10 +11,12 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
     public class AuthorController : Controller
     {
         private readonly IServiceManager _serviceManager;
+        private readonly IValidator<Author> _validator;
 
-        public AuthorController(IServiceManager serviceManager)
+        public AuthorController(IServiceManager serviceManager, IValidator<Author> validator)
         {
             _serviceManager = serviceManager;
+            _validator = validator;
         }
 
         public IActionResult Index()
@@ -31,6 +34,15 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create([FromForm] Author author)
         {
+            var validationResult = _validator.Validate(author);
+
+            if (!validationResult.IsValid)
+            {
+                validationResult.Errors.ForEach(e => ModelState.AddModelError("", e.ErrorMessage));
+
+                return View();
+            }
+
             _serviceManager.AuthorService.AddAuthor(author);
 
             return RedirectToAction("Index");
@@ -46,6 +58,15 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Edit([FromForm] Author author)
         {
+            var validationResult = _validator.Validate(author);
+
+            if (!validationResult.IsValid)
+            {
+                validationResult.Errors.ForEach(e => ModelState.AddModelError("", e.ErrorMessage));
+
+                return View(author);
+            }
+
             _serviceManager.AuthorService.UpdateAuthor(author);
 
             return RedirectToAction("Index");

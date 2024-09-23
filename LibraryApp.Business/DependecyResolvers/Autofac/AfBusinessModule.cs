@@ -1,8 +1,11 @@
 ﻿using Autofac;
+using FluentValidation;
 using LibraryApp.Business.Concrete;
 using LibraryApp.Business.Contracts;
+using LibraryApp.Business.Validation.FluentValidation;
 using LibraryApp.DataAccess.Concrete.InMemory;
 using LibraryApp.DataAccess.Contracts;
+using LibraryApp.Entities.Concrete;
 
 namespace LibraryApp.Business.DependecyResolvers.Autofac
 {
@@ -24,6 +27,14 @@ namespace LibraryApp.Business.DependecyResolvers.Autofac
 
             // Service dependency configure
             builder.RegisterType<ServiceManager>().As<IServiceManager>();
+
+            // Validation configures
+
+            // Author validation configure
+            builder.RegisterType<FvAuthorValidator>().As<IValidator<Author>>();
+
+            // Book validation configure
+            builder.RegisterType<FvBookValidator>().As<IValidator<Book>>();
         }
     }
 }

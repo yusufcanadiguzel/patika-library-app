@@ -7,6 +7,8 @@
     </div>
 </div>
 
+<div class="fw-bold text-danger" asp-validation-summary="ModelOnly"></div>
+
 <form method="post" asp-action="Edit">
     <input type="hidden" asp-for="Id" />
 
@@ -16,7 +18,7 @@
     </div>
 
     <div class="form-floating mb-2 my-2">
-        <input asp-for="LastName" type="text" class="form-control" placeholder="@Model.LastName" />
+        <input asp-for="LastName" type="text" class="form-control"   placeholder="@Model.LastName" />
         <label asp-for="LastName">Last Name</label>
     </div>
 

@@ -1,12 +1,162 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.business\\validation\\fluentvalidation\\fvbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|solutionrelative:libraryapp.business\\validation\\fluentvalidation\\fvbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.business\\constants\\magicstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|solutionrelative:libraryapp.business\\constants\\magicstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.business\\dependecyresolvers\\autofac\\afbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|solutionrelative:libraryapp.business\\dependecyresolvers\\autofac\\afbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.business\\validation\\fluentvalidation\\fvauthorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3957E2-D742-4B48-96F4-D02E13EC831B}|LibraryApp.Business\\LibraryApp.Business.csproj|solutionrelative:libraryapp.business\\validation\\fluentvalidation\\fvauthorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.mvc\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{849172A6-13CE-4D80-82A0-0CE12432C2EA}|LibraryApp.MVC\\LibraryApp.MVC.csproj|solutionrelative:libraryapp.mvc\\areas\\admin\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C02B4D4-DF03-4538-AE34-9650F24A4509}|LibraryApp.Entities\\LibraryApp.Entities.csproj|c:\\users\\yusuf\\source\\repos\\libraryapp\\libraryapp.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C02B4D4-DF03-4538-AE34-9650F24A4509}|LibraryApp.Entities\\LibraryApp.Entities.csproj|solutionrelative:libraryapp.entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T13:42:38.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AfBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "RelativeToolTip": "LibraryApp.Business\\DependecyResolvers\\Autofac\\AfBusinessModule.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:40:57.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FvAuthorValidator.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\Validation\\FluentValidation\\FvAuthorValidator.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Business\\Validation\\FluentValidation\\FvAuthorValidator.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\Validation\\FluentValidation\\FvAuthorValidator.cs",
+              "RelativeToolTip": "LibraryApp.Business\\Validation\\FluentValidation\\FvAuthorValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:41:09.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "LibraryApp.Entities\\Concrete\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:16:43.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MagicStrings.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\Constants\\MagicStrings.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Business\\Constants\\MagicStrings.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\Constants\\MagicStrings.cs",
+              "RelativeToolTip": "LibraryApp.Business\\Constants\\MagicStrings.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:22:53.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:38:29.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.MVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryApp.MVC\\Areas\\Admin\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:17:23.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FvBookValidator.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\Validation\\FluentValidation\\FvBookValidator.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Business\\Validation\\FluentValidation\\FvBookValidator.cs",
+              "ToolTip": "C:\\Users\\yusuf\\source\\repos\\LibraryApp\\LibraryApp.Business\\Validation\\FluentValidation\\FvBookValidator.cs",
+              "RelativeToolTip": "LibraryApp.Business\\Validation\\FluentValidation\\FvBookValidator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:16:11.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,7 @@
 ﻿@model Book
 
+<div class="fw-bold text-danger" asp-validation-summary="ModelOnly"></div>
+
 <form method="post" asp-action="Create">
     <input type="hidden" asp-for="Id" />
 

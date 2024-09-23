@@ -46,3 +46,7 @@ C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\scopedcss
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\Autofac.dll
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\yusuf\source\repos\LibraryApp\LibraryApp.MVC\obj\Debug\net8.0\LibraryApp.MVC.MvcApplicationPartsAssemblyInfo.cs

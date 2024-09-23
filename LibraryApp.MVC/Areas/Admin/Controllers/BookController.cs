@@ -1,4 +1,5 @@
-﻿using LibraryApp.Business.Contracts;
+﻿using FluentValidation;
+using LibraryApp.Business.Contracts;
 using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
 using Microsoft.AspNetCore.Mvc;
@@ -10,10 +11,12 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
     public class BookController : Controller
     {
         private readonly IServiceManager _serviceManager;
+        private readonly IValidator<Book> _validator;
 
-        public BookController(IServiceManager serviceManager)
+        public BookController(IServiceManager serviceManager, IValidator<Book> validator)
         {
             _serviceManager = serviceManager;
+            _validator = validator;
         }
 
         public IActionResult Index()
@@ -34,6 +37,17 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create([FromForm] Book book)
         {
+            var validationResult = _validator.Validate(book);
+
+            if (!validationResult.IsValid)
+            {
+                ViewBag.Authors = new SelectList(items: _serviceManager.AuthorService.GetAllAuthors(), selectedValue: "1", dataTextField: "FullName", dataValueField: "Id");
+
+                validationResult.Errors.ForEach(e => ModelState.AddModelError("", e.ErrorMessage));
+
+                return View();
+            }
+
             _serviceManager.BookService.AddBook(book);
 
             return RedirectToAction("Index");
@@ -51,6 +65,17 @@ namespace LibraryApp.MVC.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Edit(Book book)
         {
+            var validationResult = _validator.Validate(book);
+
+            if (!validationResult.IsValid)
+            {
+                ViewBag.Authors = new SelectList(items: _serviceManager.AuthorService.GetAllAuthors(), selectedValue: "1", dataTextField: "FullName", dataValueField: "Id");
+
+                validationResult.Errors.ForEach(e => ModelState.AddModelError("", e.ErrorMessage));
+
+                return View(book);
+            }
+
             _serviceManager.BookService.UpdateBook(book);
 
             return RedirectToAction("Index");

@@ -1,4 +1,5 @@
-﻿using LibraryApp.Entities.Concrete;
+﻿using FluentValidation.Results;
+using LibraryApp.Entities.Concrete;
 using LibraryApp.Entities.Dtos;
 
 namespace LibraryApp.Business.Contracts
@@ -8,6 +9,7 @@ namespace LibraryApp.Business.Contracts
         List<Author> GetAllAuthors();
         Author GetOneAuthorById(int id);
         void AddAuthor(Author author);
+        ValidationResult AddOneAuthor(Author author);
         void UpdateAuthor(Author author);
         void DeleteAuthor(Author author);
         void SoftDeleteAuthor(AuthorSoftDeleteDto authorSoftDeleteDto);
